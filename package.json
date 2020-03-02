@@ -1,0 +1,22 @@
+{
+  "name": "news_app",
+  "version": "1.0.0",
+  "description": "news_app_site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "js",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Rostyslav Nabok",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

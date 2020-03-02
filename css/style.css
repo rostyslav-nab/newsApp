@@ -1,0 +1,92 @@
+*{
+    font-family: 'Open Sans', ;
+    
+}
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.card .card-span{
+    color: #000;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.card-content{
+    padding: 0px 15px 10px 15px;
+    margin-top: 10px;
+    
+}
+
+.main-txt{
+    margin-left: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Стилизация карточек новостей */
+
+#card-news{
+    height: 500px;
+    
+}
+
+#card-news .card-action {
+    max-height: 55px;
+    
+}
+
+#card-news .card-image img{
+    height: 220px;
+}
+
+#card-news .card-content{
+    overflow: hidden;
+    height: 135px;
+    width: 367px;
+    padding: 0 15px;
+    padding-bottom: 5px;
+}
+
+.desc{
+    column-width: 200px;
+    height: 100%;
+}
+
+
+.link-icons{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#outher-footer{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn, .btn-large, .btn-small{
+    background-color: #424242;
+}
+
+/* Footer */
+
+footer{
+    color:#757575;
+}
+
+.footer-copyright, .netorks{
+    font-size: 25px;
+}

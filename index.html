@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="grey darken-1">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="assets/logo.svg" alt=""></a>
+                <span class="main-txt">News for You</span>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#footer">Link with me</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search-controls">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="card">
+                        <form name="newsControls">
+                            <div class="card-content">
+                                <span class="card-title">Search news</span>
+                                <div class="input-field">
+                                    <select name="country" id="country">
+                                        <option value="ua">Ukraine</option>
+                                        <option value="us">USA</option>
+                                    </select>
+                                    <label>Chose your country</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="automplete-input" name="search" type="text" class="autocomplete">
+                                    <label for="automplete-input">Submit</label>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="card-action">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Search
+                                <i class="material-icons right">search</i>
+                            </button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-container">
+        <div class="container">
+            <div class="row grid-container">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer name="footer" class="page-footer grey darken-1" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">News Hub</h5>
+                    <i class="large material-icons">assessment</i>
+                    <p class="grey-text text-lighten-4">News for everybody </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Link with me</h5>
+                    <ul>
+                        <li class="netorks"><a class="grey-text text-lighten-3"
+                                href="https://www.instagram.com/b.deppo/?hl=ru" target="_blank"><img class="link-icons"
+                                    src="assets/instagram.png"><span>Instagram</span></a>
+                        </li>
+                        <li class="netorks"><a class="grey-text text-lighten-3"
+                                href="https://www.facebook.com/rostyslav.nabok.9" target="_blank"><img
+                                    class="link-icons" src="assets/facebook.png">FaceBook</a>
+                        </li>
+                        <li class="netorks"><a class="grey-text text-lighten-3"
+                                href="https://twitter.com/NabokRostyslav" target="_blank"><img class="link-icons"
+                                    src="assets/twitter.png">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text <span id="outher-footer">Rostyslav Nabok Front-End Developer</span>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
